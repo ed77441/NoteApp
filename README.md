@@ -4,7 +4,7 @@ Also, the jar file is compiled in java9. <br />
 
 <h1>Demo</h1>
 <p align="center">
-  <img src="https://i.imgur.com/xMX9via.png" width="500" title="demo image">
+  <img src="https://i.imgur.com/xMX9via.png" width="700" title="demo image">
 </p>
 
 <h2>Instructions</h2>
