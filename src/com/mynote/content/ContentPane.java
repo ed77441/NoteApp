@@ -67,7 +67,6 @@ public class ContentPane extends JScrollPane {
         ArrayList<Integer> sActions = new ArrayList<>(Arrays.asList(Cursor.S_RESIZE_CURSOR,
                 Cursor.SE_RESIZE_CURSOR, Cursor.SW_RESIZE_CURSOR));
 
-        System.out.println("x = " + mousePoint.x);
         if (bottomRight.x - 20 < mousePoint.x &&
                 (wrapper.getX() + wrapper.getWidth() > viewBox.x + viewBox.width  || !wActions.contains(action))) {
             if (hScrollBar.getValue() + hScrollBar.getVisibleAmount() ==

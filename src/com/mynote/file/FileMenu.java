@@ -103,27 +103,6 @@ public class FileMenu extends JMenuBar {
         currentFilePointer = null;
     }
 
-    class OpenListener implements ActionListener {
-        @Override
-        public void actionPerformed(ActionEvent actionEvent) {
-            openExistingFileAction();
-        }
-    }
-
-    class SaveListener implements ActionListener {
-        @Override
-        public void actionPerformed(ActionEvent actionEvent) {
-            saveAction();
-        }
-    }
-
-    class NewNoteListener implements ActionListener {
-        @Override
-        public void actionPerformed(ActionEvent actionEvent) {
-            newNoteAction();
-        }
-    }
-
     static class AboutListener implements ActionListener {
 
         @Override
@@ -156,19 +135,19 @@ public class FileMenu extends JMenuBar {
 
         JMenuItem newNoteOption = new JMenuItem("New");
         newNoteOption.setToolTipText("Ctrl + N");
-        newNoteOption.addActionListener(new NewNoteListener());
+        newNoteOption.addActionListener((ActionEvent) -> newNoteAction());
         fileMenu.add(newNoteOption);
         keyHandler.bind("Ctrl N", this::newNoteAction);
 
         JMenuItem openOption = new JMenuItem("Open");
         openOption.setToolTipText("Ctrl + O");
-        openOption.addActionListener(new OpenListener());
+        openOption.addActionListener((ActionEvent) -> openExistingFileAction());
         fileMenu.add(openOption);
         keyHandler.bind("Ctrl O", this::openExistingFileAction);
 
         JMenuItem saveOption = new JMenuItem("Save");
         saveOption.setToolTipText("Ctrl + S");
-        saveOption.addActionListener(new SaveListener());
+        saveOption.addActionListener((ActionEvent) -> saveAction());
         fileMenu.add(saveOption);
         keyHandler.bind("Ctrl S", this::saveAction);
 
