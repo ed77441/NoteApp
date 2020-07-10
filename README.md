@@ -1,6 +1,6 @@
 # Note application
 
-This project is inspired by `Microsoft OneNote`, and only for practicing programming skill purpose only
+This project is inspired by [Microsoft OneNote](https://www.microsoft.com/zh-tw/microsoft-365/onenote/digital-note-taking-app), and only for practicing programming skill purpose only
 
 ## Prerequisite
 
@@ -8,8 +8,8 @@ This application should be run on **Java 9** or above
 
 ## External Library
 
-* `FlatLaf` for look and feel
-* `Thumbnailator` for faster image resize and quality
+* [FlatLaf](https://www.formdev.com/flatlaf) for look and feel
+* [Thumbnailator](https://github.com/coobird/thumbnailator) for faster image resize and quality
 
 ## Description
 
