@@ -48,7 +48,7 @@ This application should be run on **Java 9** or above
 ### ImagePane
 ![imagepane image](https://i.imgur.com/PA5Np25.png)
 
-#### Functionality
+#### Function
 
 1. Corner draggable point can be dragged to resize the image, it will contains current image ratio
 2. North, south, east, west draggable points will break image ratio and create new one
