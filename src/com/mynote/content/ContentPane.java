@@ -51,6 +51,7 @@ public class ContentPane extends JScrollPane {
     public void adjustScrollbar(ResizableWrapper wrapper, int action) {
         Rectangle viewBox = getViewport().getViewRect();
 
+
         Point mousePoint =  MouseInfo.getPointerInfo().getLocation();
         Point topLeft = getLocationOnScreen();
         Point bottomRight = new Point(topLeft);

@@ -37,7 +37,6 @@ public class TextPanePolicy extends ResizablePolicy {
 
     public void resizeAccordingToChild(ResizableWrapper wrapper, SettableTextPane child) {
         int topDownHeight = wrapper.getResizableBorder().dist * 2;
-
         SwingUtilities.invokeLater(() -> {
             wrapper.setSize(wrapper.getWidth(), topDownHeight + child.getPreferredSize().height);
             wrapper.revalidate();

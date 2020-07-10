@@ -101,7 +101,7 @@ public class ResizableWrapper extends JComponent {
             getResizableBorder().shouldBePainted  = isFocused = false;
             resize();
         }
-    };
+    }
 
     MouseAdapter mouseMIMOListener = new MouseAdapter() {
         @Override
@@ -143,7 +143,7 @@ public class ResizableWrapper extends JComponent {
                             Point mousePoint = MouseInfo.getPointerInfo().getLocation();
                             robot.mouseMove(mousePoint.x + 1, mousePoint.y);
                             robot.mouseMove(mousePoint.x, mousePoint.y);
-                            Thread.sleep(10);
+                            Thread.sleep(40);
                         }
                         catch (InterruptedException | AWTException ex) {
                             ex.printStackTrace();
