@@ -1,6 +1,6 @@
 # Note application
 
-This project is inspired by [Microsoft OneNote](https://www.microsoft.com/zh-tw/microsoft-365/onenote/digital-note-taking-app), and only for practicing programming skill purpose only
+This project is inspired by [Microsoft OneNote](https://www.microsoft.com/zh-tw/microsoft-365/onenote/digital-note-taking-app), it's developed based on java swing-gui
 
 ## Prerequisite
 
