@@ -28,7 +28,7 @@ This application should be run on **Java 9** or above
 ![textpane image](https://i.imgur.com/JZGSDtD.png)
 
 #### Function
-##### As you seen above, there is several text attribute that can be set on control panel
+##### As you can see above, there is several text attribute that can be set on control panel
 
 * Bold, italic and underline
 * Foreground and background color
